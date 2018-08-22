@@ -1,9 +1,9 @@
-import _ from "lodash";
-import { App } from "@codersvn/container";
+import _ from 'lodash';
+import { App } from '@codersvn/container';
 
 export class Request {
   static createFromRequest(request) {
-    return App.make("Request").createFromRequest(request);
+    return App.make('Request').createFromRequest(request);
   }
 
   /**
@@ -12,7 +12,7 @@ export class Request {
    * @return array An object of parameters
    */
   static all() {
-    return App.make("Request").all();
+    return App.make('Request').all();
   }
 
   /**
@@ -31,7 +31,7 @@ export class Request {
    */
   static get(param, defaultValue = null) {
     if (this.has(param)) {
-      return App.make("Request").all()[param];
+      return App.make('Request').all()[param];
     } else {
       return defaultValue;
     }
@@ -45,9 +45,7 @@ export class Request {
    * @return bool true if the parameter exists, false otherwise
    */
   static has(param) {
-    return !_.isUndefined(
-      _.find(_.keys(App.make("Request").all()), item => item === param)
-    );
+    return !_.isUndefined(_.find(_.keys(App.make('Request').all()), item => item === param));
   }
   /**
    * Clear the request
@@ -55,6 +53,6 @@ export class Request {
    * @return void
    */
   static clear() {
-    App.make("Request").clear();
+    App.make('Request').clear();
   }
 }

@@ -17,8 +17,8 @@
     js-tokens "^4.0.0"
 
 "@codersvn/container@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@codersvn/container/-/container-1.0.0.tgz#e57daa02cc4dfebef14b7dea786fb415e5bbcee6"
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@codersvn/container/-/container-1.0.2.tgz#55fbe1f7109c03912a0c3e41d3fa58760bd283e1"
   dependencies:
     crypto "^1.0.1"
 

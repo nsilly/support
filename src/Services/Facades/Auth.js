@@ -1,4 +1,4 @@
-import { App } from '../App';
+import { App } from '@codersvn/container';
 
 export class Auth {
   /**
