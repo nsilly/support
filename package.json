@@ -1,6 +1,6 @@
 {
   "name": "@codersvn/support",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "NF Support package",
   "main": "dist/index.js",
   "scripts": {
