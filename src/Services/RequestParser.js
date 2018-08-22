@@ -18,7 +18,7 @@ const METHOD_PURGE = 'PURGE';
 const METHOD_OPTIONS = 'OPTIONS';
 const METHOD_TRACE = 'TRACE';
 const METHOD_CONNECT = 'CONNECT';
-export default class Request {
+export class RequestParser {
   /**
    * Creates a new request with values from express's request.
    *
