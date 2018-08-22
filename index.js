@@ -1,3 +1,2 @@
-import { Auth } from "./Services/Facades/Auth";
-import { Request } from "./Services/Facades/Request";
-export default { Auth, Request };
+export { Auth } from "./src/Services/Facades/Auth";
+export { Request } from "./src/Services/Facades/Request";
