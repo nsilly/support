@@ -1,0 +1,25 @@
+{
+  "name": "@codersvn/support",
+  "version": "1.0.1",
+  "description": "NF Support package",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codersvn/support.git"
+  },
+  "keywords": [
+    "NF"
+  ],
+  "author": "Hieupv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codersvn/support/issues"
+  },
+  "homepage": "https://github.com/codersvn/support#readme",
+  "dependencies": {
+    "@codersvn/container": "^1.0.0"
+  }
+}
