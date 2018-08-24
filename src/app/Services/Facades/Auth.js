@@ -36,6 +36,6 @@ export class Auth {
    * @return integer
    */
   static id() {
-    return App.make('Auth').getUser().id;
+    return App.make('Auth').getUserId();
   }
 }
