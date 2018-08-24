@@ -7,9 +7,8 @@ export class Auth {
    * @param string email
    * @return object
    */
-  static async loginByEmail(email) {
-    let auth = App.make('Auth');
-    return auth.loginByEmail(email);
+  static async login(data) {
+    return App.make('Auth').login(data);
   }
 
   /**
@@ -26,8 +25,9 @@ export class Auth {
    *
    * @return object
    */
-  static user() {
-    return App.make('Auth').getUser();
+  static async user() {
+    const user = await App.make('Auth').getUser();
+    return user;
   }
 
   /**

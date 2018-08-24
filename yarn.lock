@@ -22,6 +22,10 @@
   dependencies:
     crypto "^1.0.1"
 
+"@codersvn/exceptions@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@codersvn/exceptions/-/exceptions-1.0.3.tgz#c1ab039f10c6cfbc2bba4dbc5ae9249c99664373"
+
 abab@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/abab/-/abab-2.0.0.tgz#aba0ab4c5eee2d4c79d3487d85450fb2376ebb0f"

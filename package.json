@@ -1,11 +1,12 @@
 {
   "name": "@codersvn/support",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "NF Support package",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "scripts": {
     "test": "jest --forceExit",
-    "build": "rimraf dist && ./node_modules/.bin/babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log,error_code.md,README.md --copy-files"
+    "build": "rimraf dist && ./node_modules/.bin/babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log,error_code.md,README.md --copy-files",
+    "publish_module": "npm run build && npx @codersvn/npm-auto-version && npm publish --access public && rm -rf dist"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,8 @@
   },
   "homepage": "https://github.com/codersvn/support#readme",
   "dependencies": {
-    "@codersvn/container": "^1.0.0"
+    "@codersvn/container": "^1.1",
+    "@codersvn/exceptions": "^1.1"
   },
   "devDependencies": {
     "babel": "^6.23.0",
