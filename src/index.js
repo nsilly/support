@@ -1,4 +1,4 @@
-export { Auth } from './app/Facades/Auth';
-export { Request } from './app/Facades/Request';
-export { RequestParser } from './app/RequestParser';
-export { Transformer } from './app/Transformer';
+export { Auth } from './app/Services/Facades/Auth';
+export { Request } from './app/Services/Facades/Request';
+export { RequestParser } from './app/Services/RequestParser';
+export { Transformer } from './app/Services/Transformer';
