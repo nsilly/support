@@ -1,7 +1,7 @@
 {
-  "name": "@codersvn/support",
-  "version": "1.1.4",
-  "description": "NF Support package",
+  "name": "@nsilly/support",
+  "version": "1.1.5",
+  "description": "NSilly Support package",
   "main": "dist/src/index.js",
   "scripts": {
     "test": "jest --forceExit",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codersvn/support.git"
+    "url": "git+https://github.com/nsilly/support.git"
   },
   "keywords": [
     "NF"
@@ -18,12 +18,12 @@
   "author": "Hieupv",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codersvn/support/issues"
+    "url": "https://github.com/nsilly/support/issues"
   },
-  "homepage": "https://github.com/codersvn/support#readme",
+  "homepage": "https://github.com/nsilly/support#readme",
   "dependencies": {
-    "@codersvn/container": "^1.1",
-    "@codersvn/exceptions": "^1.1"
+    "@nsilly/container": "^1.1",
+    "@nsilly/exceptions": "^1.1"
   },
   "devDependencies": {
     "babel": "^6.23.0",
