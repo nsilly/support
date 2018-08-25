@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { App } from '@codersvn/container';
+import { App } from '@nsilly/container';
 
 export class Request {
   static createFromRequest(request) {

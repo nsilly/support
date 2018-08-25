@@ -1,6 +1,6 @@
 {
   "name": "@nsilly/support",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "NSilly Support package",
   "main": "dist/src/index.js",
   "scripts": {

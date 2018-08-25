@@ -1,4 +1,4 @@
-import { App } from '@codersvn/container';
+import { App } from '@nsilly/container';
 
 export class Auth {
   /**
