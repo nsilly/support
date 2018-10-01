@@ -1,12 +1,13 @@
 {
   "name": "@nsilly/support",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "NSilly Support package",
   "main": "dist/src/index.js",
   "scripts": {
     "test": "jest --forceExit",
     "build": "rimraf dist && ./node_modules/.bin/babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log,error_code.md,README.md --copy-files",
-    "publish_module": "npm run build && npx @codersvn/npm-auto-version && npm publish --access public && rm -rf dist"
+    "publish_module": "npm run build && npx @codersvn/npm-auto-version && npm publish --access public && rm -rf dist",
+    "publish_module_only": "npm run build && npm publish --access public && rm -rf dist"
   },
   "repository": {
     "type": "git",
@@ -22,8 +23,8 @@
   },
   "homepage": "https://github.com/nsilly/support#readme",
   "dependencies": {
-    "@nsilly/container": "^1.1",
-    "@nsilly/exceptions": "^1.1"
+    "@nsilly/container": "^2.1",
+    "@nsilly/exceptions": "^2.1"
   },
   "devDependencies": {
     "babel": "^6.23.0",
