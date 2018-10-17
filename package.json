@@ -1,6 +1,6 @@
 {
   "name": "@nsilly/support",
-  "version": "2.1.0",
+  "version": "2.1.3",
   "description": "NSilly Support package",
   "main": "dist/src/index.js",
   "scripts": {
@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/nsilly/support#readme",
   "dependencies": {
-    "@nsilly/container": "^2.1",
-    "@nsilly/exceptions": "^2.1"
+    "@nsilly/container": "*",
+    "@nsilly/exceptions": "*"
   },
   "devDependencies": {
     "babel": "^6.23.0",

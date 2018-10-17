@@ -16,15 +16,13 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@codersvn/container@^1.0.0":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@codersvn/container/-/container-1.0.2.tgz#55fbe1f7109c03912a0c3e41d3fa58760bd283e1"
-  dependencies:
-    crypto "^1.0.1"
+"@nsilly/container@*":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@nsilly/container/-/container-2.1.0.tgz#8ddc0d14a811f38751c1beb42cf04aea71c9590b"
 
-"@codersvn/exceptions@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@codersvn/exceptions/-/exceptions-1.0.3.tgz#c1ab039f10c6cfbc2bba4dbc5ae9249c99664373"
+"@nsilly/exceptions@*":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@nsilly/exceptions/-/exceptions-2.1.0.tgz#67271b7b67c5e5f5cd94028be3f136bc61d1b231"
 
 abab@^2.0.0:
   version "2.0.0"
@@ -1147,10 +1145,6 @@ cross-spawn@^5.0.1, cross-spawn@^5.1.0:
     lru-cache "^4.0.1"
     shebang-command "^1.2.0"
     which "^1.2.9"
-
-crypto@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/crypto/-/crypto-1.0.1.tgz#2af1b7cad8175d24c8a1b0778255794a21803037"
 
 cssom@0.3.x, "cssom@>= 0.3.2 < 0.4.0":
   version "0.3.4"
