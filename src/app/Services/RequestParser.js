@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { create } from 'domain';
+import httpContext from 'express-http-context';
 
 const HEADER_FORWARDED = 0b00001; // When using RFC 7239
 const HEADER_X_FORWARDED_FOR = 0b00010;
@@ -18,26 +18,9 @@ const METHOD_PURGE = 'PURGE';
 const METHOD_OPTIONS = 'OPTIONS';
 const METHOD_TRACE = 'TRACE';
 const METHOD_CONNECT = 'CONNECT';
-export class RequestParser {
-  /**
-   * Creates a new request with values from express's request.
-   *
-   * @return static
-   */
-  createFromRequest(req, res, next) {
-    var reqd = create();
-    return reqd;
-  }
 
+export class RequestParser {
   all() {
-    return _.assign({}, process.domain._req.query, process.domain._req.body);
-  }
-  /**
-   * Clear the request
-   *
-   * @return void
-   */
-  clear() {
-    process.domain._req = null;
+    return _.assign({}, httpContext.get('data').query, httpContext.get('data').body);
   }
 }
